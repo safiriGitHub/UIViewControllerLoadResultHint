@@ -23,7 +23,14 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, readonly, getter = isLoadResultHintVisible) BOOL loadResultHintVisible;
 
+/**
+ 在self.view底层显示提示视图
+ */
 - (void)showAndReloadLoadResultHint;
+/**
+ 在self.view顶层显示提示视图
+ */
+- (void)showAndReloadLoadResultHintToFront;
 - (void)hideLoadResultHint;
 
 @end

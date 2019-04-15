@@ -132,6 +132,11 @@ static char const * const kLoadResultHintView =       "loadResultHintView";
 - (void)showAndReloadLoadResultHint {
     [self lrh_reload];
 }
+- (void)showAndReloadLoadResultHintToFront {
+    [self lrh_reload];
+    [self.view bringSubviewToFront:self.resultHintView];
+}
+
 - (void)hideLoadResultHint {
     [self lrh_invalidate];
 }

@@ -25,10 +25,12 @@
 - (IBAction)showAndReloadLoadResultHintButtonClick:(id)sender {
     [self showAndReloadLoadResultHint];
 }
+- (IBAction)showAndReloadLoadResultHintToFrontButtonClick:(id)sender {
+    [self showAndReloadLoadResultHintToFront];
+}
 
 - (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
-    
 }
 
 #pragma mark - LoadResultDataSource
