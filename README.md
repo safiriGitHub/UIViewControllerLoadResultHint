@@ -27,4 +27,5 @@ pod 'UIViewControllerLoadResultHint'
 #### 示例
 
 ![example](https://github.com/safiriGitHub/UIViewControllerLoadResultHint/blob/master/example3.gif)
+![example](https://github.com/safiriGitHub/UIViewControllerLoadResultHint/blob/master/example3.mp4)
 
